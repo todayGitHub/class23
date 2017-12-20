@@ -1,0 +1,44 @@
+package com.neuedu.three;
+
+public class Vehicle {
+	 String haha;
+	private String brand;
+	private String color;
+	private double speed =0;
+	public Vehicle(String brand, String color, double speed) {
+		super();
+		this.brand = brand;
+		this.color = color;
+		this.speed = speed;
+	}
+	public Vehicle(){}
+	public String getBrand(int money) {
+		if(money >10000){
+			return brand;
+		}else{
+			return null;
+		}
+		
+	}
+	public void setBrand(String brand) {
+		this.brand = brand;
+	}
+	public String getColor() {
+		return color;
+	}
+	public void setColor(String color) {
+		this.color = color;
+	}
+	public double getSpeed() {
+		return speed;
+	}
+	public void setSpeed(double speed) {
+		this.speed = speed;
+	}
+	
+	
+	
+	
+	
+	
+}

@@ -1,0 +1,21 @@
+
+package com.neuedu.wwww.one;
+
+public class TestWhile {
+	public static void main(String[] args) {
+		//1+2+3~10
+		//0+1
+		//0+1+2
+		//0+1+2+3
+		//0+1+2+3+4
+		
+		
+		int sum ;
+		int x = 1;
+		
+		sum = 0+x;		
+		x++;
+		
+		
+	}
+}

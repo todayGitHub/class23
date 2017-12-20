@@ -1,0 +1,7 @@
+package Collection.Set;
+
+public class TestTreeSet {
+	public static void main(String[] args) {
+		TreeSet ts = new TestTreeSet();
+	}
+}

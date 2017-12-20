@@ -1,0 +1,13 @@
+package Strings;
+
+public class TestInit {
+	public static void main(String[] args) {
+		String s1 = new String();
+		byte []b  = {1,2,3};
+		String sb = new String(b);
+		System.out.println(sb);
+		System.out.println((char)2);
+		
+		//System.out.println(s1.equals(s2));
+	}
+}

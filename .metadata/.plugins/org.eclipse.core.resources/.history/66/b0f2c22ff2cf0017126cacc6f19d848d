@@ -1,0 +1,43 @@
+package com.neuedu.wwww.one;
+
+public class TestSwitch {
+	public static void main(String[] args) {
+		int  chengji = 56;
+		//判断 成绩的优良可等；
+		
+		if(chengji>=90){
+			System.out.println("优秀");
+		}else if(chengji >=80 ){
+			System.out.println("良");
+		}else if(chengji >=60){
+			System.out.println("及格");
+		}else{
+			System.out.println("下回努力");
+		}
+			
+	
+		switch (chengji/10) {  //switch 跟表达式 （值类型：int byte char short    String  枚举）
+		case 10:   //搜索   捕捉 匹配
+			System.out.println("优秀");
+			break;//跳出 （跳出离break最近的switch 或者循环块）
+		case 9:
+			System.out.println("优秀");
+			break;
+		case 8:
+			System.out.println("良");
+			break;		
+		case 7:
+			System.out.println("及格");
+			break;
+		case 6:
+			System.out.println("及格");
+			break;			
+		default:  //如果所有的case的值都没有被匹配就会被default匹配到
+			System.out.println("下回努力");
+			break;
+					
+			
+		}
+		
+	}
+}

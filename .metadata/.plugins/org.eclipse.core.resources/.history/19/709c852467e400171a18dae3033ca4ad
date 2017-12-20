@@ -1,0 +1,7 @@
+package IO;
+
+public class TestCopyExe {
+	public static void main(String[] args) {
+		
+	}
+}

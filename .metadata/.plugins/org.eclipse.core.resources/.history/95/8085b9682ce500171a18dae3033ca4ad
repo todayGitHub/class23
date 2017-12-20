@@ -1,0 +1,23 @@
+package Net;
+
+import java.io.IOException;
+import java.io.OutputStream;
+import java.io.OutputStreamWriter;
+import java.io.PrintWriter;
+import java.net.Socket;
+import java.net.UnknownHostException;
+
+public class Client {
+	public static void main(String[] args) throws UnknownHostException, IOException {
+		Socket s = new Socket("localhost", 8888);
+		OutputStream os = s.getOutputStream();
+		OutputStreamWriter osw = new OutputStreamWriter(os);
+		PrintWriter pw = new PrintWriter(osw);
+		pw.println("Ô¼²»£¿");
+		pw.flush();
+		pw.close();
+		osw.close();
+		os.close();
+		s.close();
+	}
+}

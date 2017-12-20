@@ -1,0 +1,20 @@
+package com.neuedu.ooplianxi;
+
+public class Test {
+	
+	int  i  = 10;
+	int  j  = 10;
+	int geiMeJ(){
+		return j;
+	}
+	public static void main(String[] args) {
+		System.out.println(new Test().i);
+	}
+}
+
+class Father{
+	private String name="father";
+	public String getName() {
+	return  name;
+	}
+}

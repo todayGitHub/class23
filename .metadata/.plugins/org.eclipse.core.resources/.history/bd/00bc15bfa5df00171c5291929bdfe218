@@ -1,0 +1,28 @@
+package Strings;
+
+public class TestStringAPI {
+	public static void main(String[] args) {
+		String s1 = new String("abc");
+//		System.out.println(charAt(1,s1));
+//		System.out.println(s1.charAt(2));
+//		System.out.println("Äã".compareTo("ÎÒ"));
+//		System.out.println(s1.concat("123"));
+//		System.out.println(s1.contains("b"));
+//		System.out.println(s1.endsWith("abc"));
+//		System.out.println(s1.startsWith("ab"));
+//		System.out.println(s1.equals("abc"));
+//		System.out.println(s1.equalsIgnoreCase("ABc"));
+//		System.out.println(s1.hashCode());
+//		System.out.println(s1.indexOf("ab"));
+//		System.out.println(s1.indexOf("a",0));
+//		System.out.println(s1.lastIndexOf("a"));
+		System.out.println(s1.isEmpty());
+		System.out.println(s1.length());
+		
+		
+		
+		
+		
+	}
+
+}

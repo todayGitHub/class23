@@ -1,0 +1,16 @@
+package LoL;
+
+public class HuludaoWQL extends LoLzhubo{
+
+	HuludaoWQL(Putong pt) {
+		super(pt);
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	protected void getMoney() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

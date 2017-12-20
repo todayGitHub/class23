@@ -1,0 +1,17 @@
+package IO;
+
+public class Daxiang {
+	String name;
+	int age;
+	
+	public Daxiang(String name, int age) {
+		super();
+		this.name = name;
+		this.age = age;
+	}
+
+	void hehe(){
+		System.out.println(name+"大象大象，你的呵呵呵");
+	}
+	
+}

@@ -1,0 +1,24 @@
+package IO;
+
+import java.io.File;
+import java.util.ArrayList;
+
+public class TestCtrlF {
+	static ArrayList<File> al = new ArrayList<>(); 
+	public static void main(String[] args) {
+		String filename = "x3";
+		String parentName = "D:/haha";
+		printDir(parentName);
+	}
+	
+	static void printDir(String parentName){
+		File f = new File(parentName);
+		File fl [] = f.listFiles();
+		for (File file : fl) {
+			if(file.isDirectory()){
+				printDir(file.getAbsolutePath());
+			}
+				System.out.println(file);	
+		}
+	}
+}

@@ -1,0 +1,26 @@
+package Collection.list;
+
+//，多少都能存
+//size(),get(),add(),isEmpty()
+
+public class ArrayList {
+	
+	private Object [] element = new Object[10];
+	
+	public int size(){
+		return element.length;
+	}
+	
+	void get(int index){
+		
+	}
+	
+	
+	void add(Object o){
+		
+	}
+	
+	boolean isEmpty(){
+		return false;
+	}
+}

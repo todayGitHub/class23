@@ -1,0 +1,8 @@
+
+package com.neuedu.wwww.one;
+
+public class TestWhile {
+	public static void main(String[] args) {
+		
+	}
+}

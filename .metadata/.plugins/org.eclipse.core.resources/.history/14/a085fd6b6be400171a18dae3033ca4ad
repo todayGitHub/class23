@@ -1,0 +1,9 @@
+package IO;
+
+import java.io.FileOutputStream;
+
+public class TestIO {
+	public static void main(String[] args) {
+		FileOutputStream fos = new FileOutputStream("C:/111.txt");
+	}
+}

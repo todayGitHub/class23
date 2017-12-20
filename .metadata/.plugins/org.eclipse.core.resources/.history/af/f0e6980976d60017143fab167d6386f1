@@ -1,0 +1,10 @@
+package com.neuedu.oopgao;
+
+public class Test {
+	public static void main(String[] args) {
+		Father f = new Father();
+		f.hehe();
+	}
+	
+	
+}

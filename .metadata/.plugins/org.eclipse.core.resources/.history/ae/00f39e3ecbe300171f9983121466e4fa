@@ -1,0 +1,9 @@
+package IO;
+
+import java.io.File;
+
+public class TestCopy {
+	public static void main(String[] args) {
+		File c= new File("C:\aa.txt");
+	}
+}

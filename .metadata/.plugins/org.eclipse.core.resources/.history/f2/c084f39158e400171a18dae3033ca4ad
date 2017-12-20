@@ -1,0 +1,11 @@
+package IO;
+
+import java.io.File;
+import java.io.FileInputStream;
+
+public class TestCopytwo {
+	public static void main(String[] args) {
+		File fsr = new File("C:\\Sunset.jpg");
+		FileInputStream fis = new FileInputStream(fsr);
+	}
+}

@@ -1,0 +1,6 @@
+package com.neuedu.ooplianxi;
+
+public class Test {
+	int  i  = geiMeJ();
+	int  j  = 10; 
+}

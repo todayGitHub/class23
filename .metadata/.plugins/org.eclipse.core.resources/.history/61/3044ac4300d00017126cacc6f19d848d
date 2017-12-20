@@ -1,0 +1,45 @@
+
+package com.neuedu.wwww.one;
+
+public class TestWhile {
+	int xx = 1;
+	public static void main(String[] args) {
+		//1+2+3~10
+		//(0)+1
+		//(0+1)+2
+		//(0+1+2)+3
+		//(0+1+2+3)+4
+		
+		
+		int sum = 0;
+		int x = 1;
+		do{
+			sum = sum+x;
+			x++;
+		}while(x<=100);
+			
+		
+		//System.out.println(x);
+		System.out.println(sum);
+		
+		
+		System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~");
+		
+		
+		
+		int y = 0;
+		while(y<3){
+			System.out.println("重要的事情说三遍");
+			y++;
+		}
+	
+		
+		
+		System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~");
+	
+		for (int i = 0; i < 3; i++) {
+			System.out.println("重要的事情说三遍");
+			
+		}
+	}
+}

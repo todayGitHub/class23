@@ -1,0 +1,29 @@
+package Map;
+
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Set;
+
+import Collection.list.Iterator;
+
+public class TestHashMap {
+	public static void main(String[] args) {
+		Map m1 = new HashMap();
+		m1.put("haha1", "xixi1");
+		m1.put("haha2", "xixi2");
+		m1.put("haha3", "xixi3");
+		m1.put("haha4", "xixi4");
+		m1.put("haha5", "xixi4");
+		m1.put("haha6", "xixi4");
+		m1.put("haha7", "xixi4");
+		System.out.println(m1.size());
+		System.out.println(m1.containsKey("haha"));
+		System.out.println(m1.get("haha"));
+		System.out.println(m1.remove("haha"));
+		System.out.println(m1.size());
+		
+		Set s =  m1.keySet();
+		Iterator it = s.iterator();
+		
+	}
+}

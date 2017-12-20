@@ -1,0 +1,17 @@
+package com.neuedu.three;
+
+public class Vehicle {
+	private String brand;
+	private String color;
+	private double speed;
+	public Vehicle(String brand, String color, double speed) {
+		super();
+		this.brand = brand;
+		this.color = color;
+		this.speed = speed;
+	}
+	public Vehicle(){}
+	
+	
+	
+}

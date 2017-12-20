@@ -1,0 +1,11 @@
+package Map;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class TestHashMap {
+	public static void main(String[] args) {
+		Map m1 = new HashMap();
+		m1.put("haha", "xixi");
+	}
+}

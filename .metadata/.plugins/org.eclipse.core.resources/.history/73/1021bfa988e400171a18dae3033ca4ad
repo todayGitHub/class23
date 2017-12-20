@@ -1,0 +1,11 @@
+package IO2;
+
+public class ADecorator implements AComonpent{
+
+	@Override
+	public void doAnyThing() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

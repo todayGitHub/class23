@@ -1,0 +1,11 @@
+package LoL;
+
+public class Kai55 extends LoLzhubo{
+
+	@Override
+	protected void getMoney() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

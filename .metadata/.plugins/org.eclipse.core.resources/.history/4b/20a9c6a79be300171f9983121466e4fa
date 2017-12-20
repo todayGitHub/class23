@@ -1,0 +1,9 @@
+package IO;
+
+import java.io.File;
+
+public class Test365 {
+	public static void main(String[] args) {
+		File  f365 = new File("C:/365");
+	}
+}

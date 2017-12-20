@@ -1,0 +1,11 @@
+package com.neuedu.oopgao;
+
+public class Children extends Father{
+
+	
+	public void hehe() {
+		
+		System.out.println("haha");
+	}
+	
+}

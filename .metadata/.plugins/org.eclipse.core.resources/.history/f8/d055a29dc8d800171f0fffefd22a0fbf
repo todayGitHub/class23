@@ -1,0 +1,12 @@
+package com.neuedu.ooplianxi;
+
+public class Test {
+	int  i  = geiMeJ();
+	int  j  = 10;
+	int geiMeJ(){
+		return j;
+	}
+	public static void main(String[] args) {
+		
+	}
+}

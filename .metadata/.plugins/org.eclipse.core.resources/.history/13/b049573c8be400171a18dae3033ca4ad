@@ -1,0 +1,19 @@
+package LoL;
+
+public abstract class LoLzhubo implements LoL{
+	private Putong pt;
+	
+	LoLzhubo(Putong pt) {
+		super();
+		this.pt = pt;
+	}
+	
+	protected abstract void getMoney();
+
+	@Override
+	public void play() {
+		// TODO Auto-generated method stub
+		pt.play();getMoney();
+	}
+	
+}

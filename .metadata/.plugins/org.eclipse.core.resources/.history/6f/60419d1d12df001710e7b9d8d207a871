@@ -1,0 +1,11 @@
+package Strings;
+
+import java.io.UnsupportedEncodingException;
+
+public class TestInit2 {
+	public static void main(String[] args) {
+
+		System.out.println((char)'°¡');
+		
+	}
+}

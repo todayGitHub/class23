@@ -1,0 +1,9 @@
+package com.neuedu.oopgao;
+
+public class Father {
+	public  String name;
+	
+	public void hehe(){
+		System.out.println(name);
+	}
+}

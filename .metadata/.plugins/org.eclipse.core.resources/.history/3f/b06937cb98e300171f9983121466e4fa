@@ -1,0 +1,26 @@
+package IO;
+
+import java.io.File;
+import java.io.IOException;
+
+public class TestFile {
+	public static void main(String[] args) throws IOException, InterruptedException {
+		File f = new File("C:/2");
+		f.createNewFile();	
+		File f2 = new File("C:/1");
+		//f2.createNewFile();
+		f2.mkdir();
+		System.out.println(f.canExecute());
+		//java中的File类从来就不是文件的意思；路径类
+		System.out.println(f.canRead());
+		System.out.println(f.canWrite());
+		f.deleteOnExit();
+		System.out.println(f.exists());
+		System.out.println(f.getAbsolutePath());
+		System.out.println(f.getName());
+		System.out.println(f.getParent());
+		System.out.println(f2.isDirectory());
+		System.out.println(f.isFile());
+	}
+	
+}

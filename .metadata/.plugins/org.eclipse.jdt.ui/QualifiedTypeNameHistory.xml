@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="com.neuedu.function.Test1"/>
+<fullyQualifiedTypeName name="com.neuedu.oop.Dog"/>
+<fullyQualifiedTypeName name="com.neuedu.oop.Person"/>
+<fullyQualifiedTypeName name="com.neuedu.oopgao.Yanyuan"/>
+<fullyQualifiedTypeName name="com.neuedu.oopgao.SuperMan"/>
+<fullyQualifiedTypeName name="com.neuedu.statics.Chinese"/>
+<fullyQualifiedTypeName name="com.neuedu.statics.Father"/>
+<fullyQualifiedTypeName name="com.neuedu.statics.Children"/>
+<fullyQualifiedTypeName name="java.awt.image.SinglePixelPackedSampleModel"/>
+<fullyQualifiedTypeName name="com.neuedu.statics.Single"/>
+<fullyQualifiedTypeName name="com.neuedu.oop.Outer"/>
+<fullyQualifiedTypeName name="com.neuedu.oop.Outer.Inner"/>
+<fullyQualifiedTypeName name="com.neuedu.oop.A"/>
+<fullyQualifiedTypeName name="com.neuedu.oop.B"/>
+<fullyQualifiedTypeName name="com.neuedu.oop.C"/>
+<fullyQualifiedTypeName name="com.neuedu.oop.x"/>
+<fullyQualifiedTypeName name="java.io.IOError"/>
+<fullyQualifiedTypeName name="java.io.IOException"/>
+<fullyQualifiedTypeName name="java.io.FileNotFoundException"/>
+<fullyQualifiedTypeName name="java.lang.Exception"/>
+<fullyQualifiedTypeName name="com.neuedu.oop.hahaException"/>
+<fullyQualifiedTypeName name="java.lang.Object"/>
+<fullyQualifiedTypeName name="Object.Person"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="java.lang.StringBuffer"/>
+<fullyQualifiedTypeName name="java.lang.StringBuilder"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.io.OutputStream"/>
+<fullyQualifiedTypeName name="java.io.FileOutputStream"/>
+<fullyQualifiedTypeName name="java.io.FileInputStream"/>
+<fullyQualifiedTypeName name="java.io.File"/>
+<fullyQualifiedTypeName name="java.io.FileReader"/>
+<fullyQualifiedTypeName name="java.io.FileWriter"/>
+</qualifiedTypeNameHistroy>

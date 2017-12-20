@@ -1,0 +1,8 @@
+package LoL;
+
+public class Test {
+	public static void main(String[] args) {
+		Putong pt = new Putong();
+		HuludaoWQL wql = new HuludaoWQL(pt)
+	}
+}

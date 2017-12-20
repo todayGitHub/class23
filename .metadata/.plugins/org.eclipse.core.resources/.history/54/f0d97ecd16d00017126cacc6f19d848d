@@ -1,0 +1,26 @@
+package com.neuedu.wwww.one;
+
+import java.util.Scanner;
+
+
+
+
+
+public class TestFenshou {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int fenshoufei ;
+		
+		
+		while(true){
+			
+			fenshoufei = sc.nextInt();
+			if(fenshoufei>=10000000){
+				System.out.println("祝你幸福，我们还是分开比较好，真的！！！！");
+				break;
+			}else{
+				System.out.println("说好不分手");
+			}
+		}
+	}
+}

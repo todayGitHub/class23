@@ -1,0 +1,16 @@
+package Net;
+
+import java.io.IOException;
+import java.net.ServerSocket;
+
+public class QQServer {
+	public static void main(String[] args) {
+		ServerSocket ss = null;
+		try {
+			ss = new ServerSocket(7777);
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+}

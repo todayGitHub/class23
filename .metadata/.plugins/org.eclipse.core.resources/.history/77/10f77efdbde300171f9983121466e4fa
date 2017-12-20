@@ -1,0 +1,11 @@
+package IO;
+
+import java.io.File;
+import java.io.IOException;
+
+public class TestStream {
+	public static void main(String[] args) throws IOException {
+		File f = new File("C:/aa.txt");
+		f.createNewFile();
+	}
+}

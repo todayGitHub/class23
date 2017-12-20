@@ -1,0 +1,10 @@
+package Integer;
+
+public class TestOther {
+	public static void main(String[] args) {
+//		Integer i1 = new Integer("123a");
+		Boolean b = new Boolean("truess11");
+		System.out.println(b);
+//		System.out.println(i1);
+	}
+}

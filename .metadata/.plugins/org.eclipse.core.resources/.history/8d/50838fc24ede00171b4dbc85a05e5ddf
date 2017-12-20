@@ -1,0 +1,15 @@
+package Integer;
+
+public class TestOther {
+	public static void main(String[] args) {
+//		Integer i1 = new Integer("123a");
+		Boolean b = new Boolean("truess11");
+		Character c1 = 'Ëû' ;
+		Character c2 = 'Ëü';
+		System.out.println(b);
+		System.out.println(c1.compareTo(c2));
+		System.out.println(c1.isDigit('1'));
+		System.out.println(c1.isLetter('1'));s
+//		System.out.println(i1);
+	}
+}

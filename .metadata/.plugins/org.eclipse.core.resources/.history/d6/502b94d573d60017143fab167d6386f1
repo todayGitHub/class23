@@ -1,0 +1,13 @@
+package com.neuedu.oopgao;
+
+public class Test {
+	public static void main(String[] args) {
+		Student s = new Student("haha", 18); 
+		say(s); 
+		System.out.println(s.name);
+	}
+	
+	static void say(Student s){
+		s.name = "hehe";
+	}
+}

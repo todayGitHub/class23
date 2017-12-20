@@ -1,0 +1,24 @@
+
+package com.neuedu.wwww.one;
+
+public class TestWhile {
+	public static void main(String[] args) {
+		//1+2+3~10
+		//0+1
+		//0+1+2
+		//0+1+2+3
+		//0+1+2+3+4
+		
+		
+		int sum = 0;
+		int x = 1;
+		while(x<=10){
+			sum = sum+x;		
+			x++;
+			
+		}
+		//System.out.println(x);
+		System.out.println(sum);
+		
+	}
+}

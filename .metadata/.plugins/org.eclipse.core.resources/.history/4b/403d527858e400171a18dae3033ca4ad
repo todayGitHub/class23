@@ -1,0 +1,9 @@
+package IO;
+
+import java.io.File;
+
+public class TestCopytwo {
+	public static void main(String[] args) {
+		File fsr = new File("C:\Sunset.jpg");
+	}
+}

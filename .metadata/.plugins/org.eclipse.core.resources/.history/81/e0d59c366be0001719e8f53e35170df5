@@ -1,0 +1,7 @@
+package Math;
+
+public class TestRandom {
+	public static void main(String[] args) {
+		System.out.println(Math.ceil(Math.random()*9+1));
+	}
+}

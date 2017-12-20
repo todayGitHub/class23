@@ -1,0 +1,29 @@
+package IO;
+
+import java.io.BufferedInputStream;
+import java.io.BufferedOutputStream;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+
+public class TestCopyExe {
+	public static void main(String[] args) throws IOException {
+		File fsr = new File("C:/1031.2.exe");
+		FileInputStream  fis = new FileInputStream(fsr);
+		FileOutputStream fos = new FileOutputStream("D:/1031.2.exe");
+		
+		BufferedInputStream bis = new BufferedInputStream(fis);
+		BufferedOutputStream bos = new BufferedOutputStream(fos);
+		
+		
+		int a =  bis.read();
+		while(a!=-1){
+			
+		}
+		
+		
+		
+	}
+}

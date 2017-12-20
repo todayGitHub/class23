@@ -1,0 +1,8 @@
+package Integer;
+
+public class TestOther {
+	public static void main(String[] args) {
+		Float b ;
+		b.valueOf(1);
+	}
+}

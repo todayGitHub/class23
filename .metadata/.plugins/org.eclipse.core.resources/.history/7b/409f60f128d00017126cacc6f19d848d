@@ -1,0 +1,13 @@
+package com.neuedu.wwww.one;
+
+public class TestArray {
+	public static void main(String[] args) {
+		
+		int a ; //基本数据类型
+		a = 1; //普通的int类型的变量
+				 //引用数据类型，必须有堆空间	
+		int[] b ; //数组的声明  ，让计算机准备好一块内存空间 （直接写数据类型声明的是栈空间）
+		b = new  int [5]; //new 告诉jvm 给我按照后面的方案开辟内存空间
+						  //5块空间，一块空间4个字节（new 声明的是堆空间）
+	}
+}

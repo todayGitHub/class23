@@ -1,0 +1,11 @@
+package com.neuedu.wwww.one;
+
+public class TestArray {
+	public static void main(String[] args) {
+		
+		int a ;
+		a = 1; //普通的int类型的变量
+		int[] b ; //数组的声明
+		b =new  int [5];
+	}
+}

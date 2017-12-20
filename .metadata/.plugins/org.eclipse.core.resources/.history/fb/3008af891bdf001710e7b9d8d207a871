@@ -1,0 +1,14 @@
+package Strings;
+
+public class TestStringAPI {
+	public static void main(String[] args) {
+		String s1 = "abc";
+//		System.out.println(charAt(1,s1));
+		System.out.println(s1.charAt(2));
+		System.out.println("Äã".compareTo("ÎÒ"));
+		System.out.println(s1.concat("123"));
+		System.out.println(s1.contains("b"));
+		System.out.println(s1.endsWith("b"));
+	}
+
+}

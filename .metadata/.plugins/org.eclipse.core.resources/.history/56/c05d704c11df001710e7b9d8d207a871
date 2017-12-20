@@ -1,0 +1,7 @@
+package Strings;
+
+public class TestInit2 {
+	public static void main(String[] args) {
+		
+	}
+}

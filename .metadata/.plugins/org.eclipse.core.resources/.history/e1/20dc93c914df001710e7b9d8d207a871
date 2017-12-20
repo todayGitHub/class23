@@ -1,0 +1,37 @@
+package Strings;
+
+import java.io.UnsupportedEncodingException;
+
+public class TestInit2 {
+	public static void main(String[] args) throws UnsupportedEncodingException  {
+		
+		String s1 = new String("ÄãÎÒËû123abc".getBytes("utf-8"),"iso8859-1");
+		String s2 = new String(s1.getBytes("iso8859-1"),"utf-8");
+		System.out.println(s2);
+	
+//		String s = "ABC÷Ò";
+//	
+//		byte b1  [] = s.getBytes("utf-8");
+//	
+//		String s1 = new String(b1,"utf-8");
+//		System.out.println(s1);
+//		byte b2[];
+//		try {
+//			b2 = s.getBytes("utf-8");
+//			for (int i = 0; i < b2.length; i++) {
+//				System.out.println(b2[i]);
+//			}
+//		} catch (UnsupportedEncodingException e) {
+//			// TODO Auto-generated catch block
+//			e.printStackTrace();
+//		}
+//		System.out.println((char)63);
+		
+	}
+	
+	static String getUtf-8(String s){
+		String s1 = new String(s.getBytes("utf-8"),"iso8859-1");
+		String s2 = new String(s1.getBytes("iso8859-1"),"utf-8");
+		return s2;
+	}
+}

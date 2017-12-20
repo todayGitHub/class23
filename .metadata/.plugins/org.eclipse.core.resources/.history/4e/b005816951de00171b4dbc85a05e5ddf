@@ -1,0 +1,19 @@
+package Integer;
+
+public class TestOther {
+	public static void main(String[] args) {
+//		Integer i1 = new Integer("123a");
+		Boolean b = new Boolean("truess11");
+		Character c1 = 'Ëû' ;
+		Character c2 = 'Ëü';
+		System.out.println(b);
+		System.out.println(c1.compareTo(c2));
+		System.out.println(Character.isDigit('1'));
+		System.out.println(Character.isLetter('°¡'));
+		System.out.println(Character.isSpace(' '));
+		System.out.println(Character.isWhitespace('\\'));
+		System.out.println(Character.toLowerCase('°¡'));
+		
+//		System.out.println(i1);
+	}
+}

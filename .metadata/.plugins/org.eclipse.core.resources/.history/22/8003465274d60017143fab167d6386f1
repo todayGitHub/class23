@@ -1,0 +1,11 @@
+package com.neuedu.oopgao;
+
+public class Test {
+	public static void main(String[] args) {
+		Student s = new Student("haha", 18); //供应商 haha
+	//	say(s); //中间商 hehe
+		System.out.println(s.getName());//客户 haha
+	}
+	
+	
+}

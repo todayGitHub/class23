@@ -1,0 +1,7 @@
+package IO;
+
+public class TestCopyExe {
+	public static void main(String[] args) {
+		File fsr = new File("C:/1031.2.exe");
+	}
+}

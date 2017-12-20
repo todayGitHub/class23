@@ -1,0 +1,45 @@
+package Collection.Set;
+
+import java.util.Iterator;
+import java.util.TreeSet;
+
+
+
+public class TestTreeSet {
+	public static void main(String[] args) {
+		TreeSet ts = new TreeSet();
+//		Integer String
+//		ts.add(3);
+//		ts.add(4);
+//		ts.add(5);
+//		ts.add(1);
+//		ts.add(2);
+		Person p1 = new Person();
+		Person p2 = new Person();
+		Person p3 = new Person();
+		Person p4 = new Person();
+		Person p5 = new Person();
+		Person p6 = new Person();
+		ts.add(p1);
+		ts.add(p2);
+		ts.add(p3);
+		ts.add(p4);
+		ts.add(p5);
+		ts.add(p6);
+		
+		
+		
+		Iterator it = ts.iterator();
+		while (it.hasNext()) {
+			System.out.println(it.next());
+			
+		}
+		ts.add(22);
+		System.out.println("~~~");
+		Iterator it2 = ts.iterator();
+		while (it2.hasNext()) {
+			System.out.println(it2.next());
+			
+		}
+	}
+}

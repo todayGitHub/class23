@@ -1,0 +1,11 @@
+package Strings;
+
+public class TestStringAPI {
+	public static void main(String[] args) {
+		String s1 = "abc";
+		System.out.println(s1.charAt(3));
+	}
+	static char charAt(int index){
+		
+	}
+}

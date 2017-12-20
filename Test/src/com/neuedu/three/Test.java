@@ -1,0 +1,10 @@
+package com.neuedu.three;
+
+public class Test {
+	public static void main(String[] args) {
+		Vehicle v = new Vehicle("benz", "black",100 );
+		
+		v.run();
+	}
+}
+

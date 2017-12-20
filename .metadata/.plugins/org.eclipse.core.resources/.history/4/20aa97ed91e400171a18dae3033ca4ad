@@ -1,0 +1,5 @@
+package IO2;
+
+public class Comonpent2 implements AComonpent{
+
+}

@@ -1,0 +1,5 @@
+package Integer;
+
+public class Daxiang {
+	int a;
+}

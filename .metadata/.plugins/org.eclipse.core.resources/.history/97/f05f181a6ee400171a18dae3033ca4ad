@@ -1,0 +1,11 @@
+package IO;
+
+public class Daxiang {
+	String name;
+	int age;
+	
+	void hehe(){
+		System.out.println("大象大象，你的呵呵呵");
+	}
+	
+}

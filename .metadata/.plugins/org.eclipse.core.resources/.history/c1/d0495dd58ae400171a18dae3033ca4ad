@@ -1,0 +1,11 @@
+package LoL;
+
+public class LoLzhubo implements LoL{
+	private Putong pt;
+	@Override
+	public void play() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+}

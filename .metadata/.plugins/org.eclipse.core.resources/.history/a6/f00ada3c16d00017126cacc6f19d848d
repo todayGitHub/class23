@@ -1,0 +1,19 @@
+package com.neuedu.wwww.one;
+
+import java.util.Scanner;
+
+
+
+
+
+public class TestFenshou {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int fenshoufei = sc.nextInt();
+		System.out.println(fenshoufei);
+		
+		while(true){
+			
+		}
+	}
+}

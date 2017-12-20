@@ -1,0 +1,23 @@
+package IO;
+
+import java.io.Serializable;
+
+public class Daxiang implements Serializable{
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	String name;
+	transient int age;
+	
+	public transientDaxiang(String name, int age) {
+		super();
+		this.name = name;
+		this.age = age;
+	}
+
+	void hehe(){
+		System.out.println(name+"大象大象，你的呵呵呵"+"  "+age);
+	}
+	
+}

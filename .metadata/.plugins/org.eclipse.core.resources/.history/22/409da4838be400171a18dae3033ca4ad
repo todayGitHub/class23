@@ -1,0 +1,5 @@
+package LoL;
+
+public class HuludaoWQL extends LoLzhubo{
+
+}

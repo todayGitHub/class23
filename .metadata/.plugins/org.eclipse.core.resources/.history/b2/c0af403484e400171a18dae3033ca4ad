@@ -1,0 +1,7 @@
+package Integer;
+
+import java.io.Serializable;
+
+public class Daxiang implements Serializable{
+	int a;
+}

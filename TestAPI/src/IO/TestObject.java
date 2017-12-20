@@ -1,0 +1,18 @@
+package IO;
+
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.ObjectOutputStream;
+
+public class TestObject {
+	public static void main(String[] args) throws IOException {
+		FileOutputStream fos = new FileOutputStream("C:/daxiang.txt");
+		ObjectOutputStream oos = new ObjectOutputStream(fos);
+		oos.writeObject(new Daxiang("¡Ô¡Ô",8));
+		oos.flush();
+		oos.close();
+		fos.close();
+		
+	}
+}
