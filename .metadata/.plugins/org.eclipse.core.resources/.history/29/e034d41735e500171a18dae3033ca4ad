@@ -25,7 +25,6 @@ public class QQServer {
 			pw = new PrintWriter(s.getOutputStream());
 			while(true){
 				System.out.println(br.readLine());
-				
 				sout = sint+  sc.nextLine();
 				pw.println(sout);
 				pw.flush();
