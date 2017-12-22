@@ -1,0 +1,11 @@
+package Thread;
+
+public class Test {
+	public static void main(String[] args) throws InterruptedException {		
+		A a = new A();
+		B b = new B();
+		
+	}
+	
+	
+}

@@ -1,0 +1,11 @@
+package com.one;
+
+import java.sql.Connection;
+
+public class TestJDBC {
+	public static void main(String[] args) throws ClassNotFoundException {
+		
+		Class.forName("oracle.jdbc.driver.OracleDriver");
+		Connection conn = 
+	}
+}

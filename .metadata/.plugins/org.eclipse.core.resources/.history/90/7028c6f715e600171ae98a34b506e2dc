@@ -1,0 +1,22 @@
+package Thread;
+
+import java.net.Socket;
+
+public class Reading implements Runnable{
+	private Socket s;
+	
+	public Reading(Socket s) {
+		super();
+		this.s = s;
+	}
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		read();
+	}
+	
+	void read(){
+		BufferedReader br = null;
+	}
+
+}

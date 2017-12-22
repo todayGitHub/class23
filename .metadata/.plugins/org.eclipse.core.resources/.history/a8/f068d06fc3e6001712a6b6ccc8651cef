@@ -1,0 +1,8 @@
+package Ticket;
+
+public class Test {
+	public static void main(String[] args) {
+		Trans t = new Trans();
+		Point p = new Point(, "Neu");
+	}
+}

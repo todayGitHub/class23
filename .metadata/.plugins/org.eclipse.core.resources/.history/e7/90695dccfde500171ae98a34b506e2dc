@@ -1,0 +1,16 @@
+package Thread;
+
+public class Test {
+	public static void main(String[] args) {		
+		haha("a");
+		A a = new A();
+		a.run();
+		
+	}
+	public static void haha(String a){
+		for (int i = 0; i < 10; i++) {
+			System.out.println(a);
+		}
+	}
+	
+}

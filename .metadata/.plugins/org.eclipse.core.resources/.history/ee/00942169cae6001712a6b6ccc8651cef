@@ -1,0 +1,14 @@
+package ´´Òµ;
+
+public class scz {
+	String name;
+	cup c ;
+	public scz(String name, cup c) {
+		super();
+		this.name = name;
+		this.c = c;
+	}
+	
+	
+	
+}

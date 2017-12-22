@@ -1,0 +1,24 @@
+package ´´Òµ;
+
+public class xfz extends Thread{
+	String name;
+	cup c ;
+	public xfz(String name, cup c) {
+		super();
+		this.name = name;
+		this.c = c;
+	}
+	
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		xf();
+	}
+	
+	void xf(){
+		if(c.empty==false){
+			c.setEmpty(true);
+			c.wait();
+		}
+	}
+}

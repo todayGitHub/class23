@@ -1,0 +1,17 @@
+package Thread;
+
+import java.io.FileInputStream;
+
+public class Writing implements Runnable{
+	private Socket s;
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		write();
+	}
+	
+	void write(){
+		
+	}
+
+}

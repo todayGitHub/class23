@@ -1,0 +1,15 @@
+package ´´Òµ;
+
+public class xfz extends Thread{
+	String name;
+	cup c ;
+	public xfz(String name, cup c) {
+		super();
+		this.name = name;
+		this.c = c;
+	}
+	
+	void xf(){
+		
+	}
+}

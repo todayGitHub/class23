@@ -1,0 +1,10 @@
+package com.one;
+
+import oracle.jdbc.driver.OracleDriver;
+
+public class TestJDBC {
+	public static void main(String[] args) {
+		OracleDriver
+		Class.forName(className)
+	}
+}

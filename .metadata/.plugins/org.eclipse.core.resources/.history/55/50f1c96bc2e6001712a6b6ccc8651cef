@@ -1,0 +1,8 @@
+package Ticket;
+
+public class Trans {
+	int ticket = 10;
+	int getTicket(){
+		return ticket;
+	}
+}

@@ -1,7 +1,0 @@
-package Strings;
-
-public class TestQuick {
-	public static void main(String[] args) {
-		String s1 = "abc";
-	}
-}

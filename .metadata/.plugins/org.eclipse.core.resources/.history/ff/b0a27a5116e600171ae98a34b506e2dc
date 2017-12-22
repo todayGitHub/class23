@@ -1,0 +1,29 @@
+package Thread;
+
+import java.io.FileInputStream;
+import java.io.PrintWriter;
+import java.net.ServerSocket;
+import java.net.Socket;
+import java.util.Scanner;
+
+public class Writing implements Runnable{
+	private Socket s;
+	
+	public Writing(Socket s) {
+		super();
+		this.s = s;
+	}
+
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		write();
+	}
+	
+	void write(){
+		PrintWriter pw =  null;
+		Scanner sc = new Scanner(System.in);
+		
+	}
+
+}

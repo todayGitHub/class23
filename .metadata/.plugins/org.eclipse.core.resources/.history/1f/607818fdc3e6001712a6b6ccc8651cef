@@ -1,0 +1,33 @@
+package Ticket;
+
+public class Point extends Thread{
+	Trans t ;
+	String name;
+
+	public Point(Trans t,String name) {
+		super();
+		this.t = t;
+		this.name = name;
+	}
+	
+	
+	
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		salTicket();
+	}
+
+
+
+	void salTicket(){
+		int a = t.getTicket();
+		while(a!=-1){
+			Thread.sleep(300);
+			System.out.println(name + "售票点刚刚卖出了第"+a+"号票");
+			a = t.getTicket();
+		}
+		
+	}
+	
+}

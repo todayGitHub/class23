@@ -1,0 +1,29 @@
+package ´´Òµ;
+
+public class scz extends Thread{
+	String name;
+	cup c ;
+	public scz(String name, cup c) {
+		super();
+		this.name = name;
+		this.c = c;
+	}
+	
+	
+	
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		sc();
+	}
+
+
+
+	void sc(){
+		if(c.empty == true){
+			c.setEmpty(false);
+		}
+		
+	}
+	
+}

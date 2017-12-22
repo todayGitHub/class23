@@ -1,0 +1,12 @@
+package Thread;
+
+public class Test {
+	public static void main(String[] args) throws InterruptedException {		
+		haha("a");
+		A a = new A();
+		a.start();
+		
+	}
+	
+	
+}

@@ -1,0 +1,15 @@
+package Thread;
+
+public class Test {
+	public static void main(String[] args) {		
+		haha("a");
+		A a = new A();
+		a.start();
+		
+	}
+	public static void haha(String a){
+			System.out.println(a);
+		}
+	}
+	
+}

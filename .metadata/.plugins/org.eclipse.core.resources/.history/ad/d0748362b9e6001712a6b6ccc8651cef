@@ -1,0 +1,14 @@
+package Thread;
+
+public class C extends Thread {
+
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		for (int i = 0; i < 100; i++) {
+			Thread.sleep(300);
+			System.out.println("c");
+		}
+	}
+	
+}

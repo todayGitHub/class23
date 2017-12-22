@@ -1,0 +1,17 @@
+package Ticket;
+
+public class Point {
+	Trans t ;
+	String name;
+
+	public Point(Trans t,String name) {
+		super();
+		this.t = t;
+	}
+	
+	void salTicket(){
+		int a = t.getTicket();
+		System.out.println(a);
+	}
+	
+}

@@ -1,0 +1,16 @@
+package Thread;
+
+public class Test {
+	public static void main(String[] args) throws InterruptedException {
+		System.out.println("ºó¹¬´«");
+		A a = new A();
+		B b = new B();
+
+		a.start();
+		
+		b.start();
+		b.join();();
+	}
+	
+	
+}

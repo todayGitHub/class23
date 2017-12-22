@@ -1,0 +1,16 @@
+package 创业;
+
+public class Test {
+	public static void main(String[] args) {
+		cup c = new cup();
+		scz s = new scz("李雪", c);
+		xfz x1 = new xfz("王松", c);
+		xfz x2 = new xfz("流流", c);
+		xfz x3 = new xfz("程序名", c);
+		
+//		s.start();
+		x1.start();
+//		x2.start();
+//		x3.start();
+	}
+}

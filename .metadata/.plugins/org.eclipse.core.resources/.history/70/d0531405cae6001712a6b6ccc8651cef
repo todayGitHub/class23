@@ -1,0 +1,5 @@
+package ´´Òµ;
+
+public class cup {
+	boolean empty = true;
+}

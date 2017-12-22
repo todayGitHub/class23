@@ -1,0 +1,17 @@
+package Thread;
+
+public class A extends Thread{
+	
+	
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		haha("b");
+	}
+
+	public static void haha(String a){
+		for (int i = 0; i < 10; i++) {
+			System.out.println(a);
+		}
+	}
+}

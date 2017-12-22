@@ -1,7 +1,0 @@
-package Map;
-
-public class HashMap {
-	public static void main(String[] args) {
-		Map m1 = new HashMap();
-	}
-}

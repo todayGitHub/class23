@@ -1,0 +1,17 @@
+package Thread;
+
+public class TestJoinYeild {
+	public static void main(String[] args) throws InterruptedException {
+		C c = new C();
+		c.start();
+		for (int i = 0; i < 100; i++) {
+			Thread.sleep(300);
+			
+			
+			yield();	
+			
+			System.out.println("main");
+			
+		}
+	}
+}
