@@ -39,7 +39,7 @@ public class Test {
 			break;			
 
 		case 3:
-			System.out.println("欢迎使用本系统");
+			System.out.println("欢迎使用本系统321");
 			System.exit(0);
 			
 			break;			
